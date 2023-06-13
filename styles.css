@@ -12,13 +12,30 @@ body>h1 {
   color: #333333;
   margin-bottom: 20px;
 }
-body>header>nav{
-  background-color: #333333;
+nav {
+  background-color: #6d9fcc;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
+
+nav a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+
 /*Button Styles*/
 button {
     display: inline-block;
@@ -36,3 +53,6 @@ button {
     background-color: #123d63;
   }
   
+  img{
+    height: 150px;
+  }
