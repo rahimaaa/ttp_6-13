@@ -1,2 +1,8 @@
 # ttp_6-13
-hi
+Members:
+Rahima
+Rana
+Nafisa 
+Najeeb
+
+Cause: helping animal shelters
