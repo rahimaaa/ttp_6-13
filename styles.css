@@ -15,10 +15,10 @@ body {
 }
 
 /* Heading styles */
-body>h1 {
-  font-size: 36px;
-  color: #333333;
-  margin-bottom: 20px;
+body h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
@@ -62,7 +62,7 @@ button:hover {
   background-color: #123d63;
 }
 
-img {
-  height: 15%;
-  width: auto;
+header img {
+  height: auto;
+  width: 15%;
 }
