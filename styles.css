@@ -1,4 +1,4 @@
-/* Heade styles */
+/* Header styles */
 header {
   text-align: center;
   background-size: cover;
@@ -15,10 +15,8 @@ body {
 }
 
 /* Heading styles */
-body h1 {
+h1 {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 nav {
@@ -46,12 +44,13 @@ nav a:hover {
 img {
   width: 250px;
   height: 200px;
-  margin: 40px 0px 0px 0px;
+  margin: 40px auto 0;
   border: 7px solid white;
   border-radius: 20px;
+  display: block;
 }
 
-/*Button Styles*/
+/* Button Styles */
 button {
   display: inline-block;
   padding: 12px 24px;
@@ -68,10 +67,13 @@ button:hover {
   background-color: #123d63;
 }
 
-img {
-  width: 25%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
