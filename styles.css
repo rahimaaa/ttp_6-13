@@ -1,7 +1,6 @@
 /* Header styles */
 header {
   text-align: center;
-  background-size: cover;
   margin: 0 auto;
   color: white;
 }
@@ -76,4 +75,25 @@ p {
 
 p:last-child {
   margin-bottom: 0;
+}
+
+footer {
+  background-color: #6d9fcc;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 14px;
 }
