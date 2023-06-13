@@ -1,3 +1,11 @@
+/* Heade styles */
+header {
+		text-align: center;
+		background-size: cover;
+		margin: 0 auto;
+		color: white;
+}
+
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
